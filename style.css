@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Pacifico', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.footer{
+	width:100%;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+	gap:10px;
+	background-color:#fffaf7;
+	padding:30px 0;
+	height:40%;
+	
+	}
+.col1{
+	width:20%;
+	margin-left:35px;
+}
+.col1 h2{
+	padding:10px 0;
+	font-size:28px;
+	text-transform:capitalize;
+}
+.col1 address{
+	text-transform:capitalize;
+	padding-bottom:20px;
+}
+.col{
+	width:20%;
+}
+.col h3{
+	padding:7px 0;
+	text-transform:capitalize;
+}
+.col li{
+	list-style-type:none;
+	padding:5px 0;
+	text-transform:capitalize;
+}
+.col i{
+	color:#fb5e23;
+}
+.col3{
+	width:40%;
+	margin-right:30px;
+	position:relative;
+}
+.col3 h3{
+	padding:10px 0;
+	text-transform:capitalize;
+}
+.col3 p{
+	padding-bottom:20px;
+}
+.subscribe input{
+	padding:10px 40px;
+	border-radius:20px;
+	border:none;
+}
+.subscribe button{
+	padding:10px 20px;
+	border-radius:20px;
+	border:none;
+	background-color:#ff5721;
+	color:white;
+	position:absolute;
+	right: 39%;
+}
+.row-copyright{
+	display:flex;
+	justify-content:space-between;
+	padding:30px;
+}
+.col4{
+	margin-left:10px;
+	text-transform:capitalize;
+}
+.col4 span{
+	color:#ff5721;
+}
+.icon{
+	display:flex;
+	gap:15px;
+	padding-right:50px;
+}
+.icon i{
+	font-size:30px;
+	color:#ff5721;
+}
+
+	
